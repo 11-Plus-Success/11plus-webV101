@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>11+ Practice – Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- Header -->
+    <header class="site-header">
+      <h1 id="quiz-title">11+ Quiz</h1>
+      <p class="tagline">
+        Subject: <span id="quiz-subject-label">Loading…</span>
+      </p>
+    </header>
+
+    <!-- Auth info (optional Firebase integration) -->
+    <section id="auth-info" class="auth-info">
+      <p id="auth-status"></p>
+      <button id="logout-btn" style="display:none;">Log out</button>
+    </section>
+
+    <!-- Navigation -->
+    <nav style="margin-bottom: 12px;">
+      <a href="index.html" class="status-message">← Back to Subjects</a> |
+      <a href="dashboard.html" class="status-message">View Dashboard →</a>
+    </nav>
+
+    <!-- Quiz Container -->
+    <main class="quiz-container">
+
+      <!-- Status / error messages -->
+      <p id="quiz-status" class="status-message"></p>
+
+      <!-- Question Card -->
+      <section id="quiz-card" class="dashboard-box" style="display:none;">
+
+        <!-- Progress -->
+        <div id="quiz-progress" class="status-message">
+          Question <span id="current-question-number">1</span>
+          of <span id="total-questions">0</span>
+        </div>
+
+        <!-- Question Text -->
+        <div class="question-text" id="question-text">
+          Loading question…
+        </div>
+
+        <!-- Options -->
+        <ul id="options-list" class="options-list">
+          <!-- Filled dynamically by app.js as .option-btn elements -->
+        </ul>
+
+        <!-- Explanation -->
+        <div id="explanation-box" class="explanation-box" style="display:none;">
+          <strong>Explanation:</strong>
+          <span id="explanation-text"></span>
+        </div>
+
+        <!-- Actions -->
+        <button id="check-answer-btn" class="action-btn" disabled>
+          Check Answer
+        </button>
+        <button id="next-question-btn" class="action-btn" disabled>
+          Next Question
+        </button>
+      </section>
+
+      <!-- Final Summary -->
+      <section id="quiz-summary" class="dashboard-box" style="display:none; margin-top:20px;">
+        <h2>Quiz Summary</h2>
+        <p id="summary-text"></p>
+        <button id="retry-btn" class="action-btn">
+          Retry this Subject
+        </button>
+        <button id="back-to-subjects-btn" class="action-btn">
+          Back to Subjects
+        </button>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© 2025 11+ Practice App</p>
+    </footer>
+
+  </div>
+
+  <!-- Main quiz logic -->
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="firebase.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

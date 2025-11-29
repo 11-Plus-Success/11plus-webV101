@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>11+ Practice – Subjects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+<script src="firebase.js"></script>
+<script src="app.js"></script>
+
+
+
+
+<body>
+  <div class="page">
+
+    <!-- Header -->
+    <header class="site-header">
+      <h1>11+ Practice</h1>
+      <p class="tagline">Select a subject to begin your quiz.</p>
+    </header>
+
+    <!-- Authentication (optional, linked to firebase.js) -->
+    <section id="auth-info" class="auth-info">
+      <p id="auth-status"></p>
+      <button id="logout-btn" style="display:none;">Log out</button>
+    </section>
+
+    <!-- Subject Selection -->
+    <main class="subject-container">
+      <button class="subject-btn" data-subject="maths">Maths</button>
+      <button class="subject-btn" data-subject="english">English</button>
+      <button class="subject-btn" data-subject="verbal">Verbal Reasoning</button>
+      <button class="subject-btn" data-subject="nonverbal">Non-Verbal Reasoning</button>
+      <button class="subject-btn" data-subject="data">Data Interpretation</button>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© 2025 11+ Practice App</p>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "Verbal",
+      "topic": "antonyms",
+      "question": "Find the two words most opposite in meaning.",
+      "options": [
+        "happy & sad",
+        "tired & cheerful",
+        "cheerful & gloomy",
+        "happy & cheerful"
+      ],
+      "answer": "happy & sad",
+      "explanation": "'Happy' and 'sad' are direct opposites (antonyms)."
+    },
+    {
+      "id": 2,
+      "category": "Verbal",
+      "topic": "word-analogies",
+      "question": "book : read :: fork : ____",
+      "options": ["eat", "cook", "stab", "wash"],
+      "answer": "eat",
+      "explanation": "You read a book; you eat with a fork."
+    },
+    {
+      "id": 3,
+      "category": "Verbal",
+      "topic": "odd-one-out-words",
+      "question": "Which word does NOT belong?",
+      "options": ["cat", "dog", "rabbit", "fox", "parrot"],
+      "answer": "parrot",
+      "explanation": "Cat, dog, rabbit and fox are mammals; parrot is a bird."
+    },
+    {
+      "id": 4,
+      "category": "Verbal",
+      "topic": "synonyms",
+      "question": "Choose the pair that means the same: 'silent : ____'",
+      "options": ["loud", "noisy", "quiet", "busy"],
+      "answer": "quiet",
+      "explanation": "'Quiet' is closest in meaning to 'silent'."
+    },
+    {
+      "id": 5,
+      "category": "Verbal",
+      "topic": "odd-one-out-words",
+      "question": "Find the odd one out.",
+      "options": ["teacher", "doctor", "nurse", "hospital"],
+      "answer": "hospital",
+      "explanation": "Teacher, doctor and nurse are people; hospital is a place."
+    },
+    {
+      "id": 6,
+      "category": "Verbal",
+      "topic": "word-relations",
+      "question": "Which word can go in front of all these: 'room', 'time', 'light'?",
+      "options": ["bed", "day", "night", "air"],
+      "answer": "day",
+      "explanation": "You can have daytime, daylight and day room; 'day' fits all three."
+    },
+    {
+      "id": 7,
+      "category": "Verbal",
+      "topic": "word-codes",
+      "question": "REAP is to PEAR as EVIL is to ____. ",
+      "options": ["VILE", "LIVE", "VEIL", "VILE or LIVE"],
+      "answer": "VILE or LIVE",
+      "explanation": "PEAR is an anagram of REAP; VILE and LIVE are common anagrams of EVIL."
+    },
+    {
+      "id": 8,
+      "category": "Verbal",
+      "topic": "synonyms",
+      "question": "Which of these is a synonym of 'tidy'?",
+      "options": ["messy", "neat", "untidy", "dirty"],
+      "answer": "neat",
+      "explanation": "'Neat' means tidy and well ordered."
+    },
+    {
+      "id": 9,
+      "category": "Verbal",
+      "topic": "word-analogies",
+      "question": "Complete the analogy: 'cold : freezing :: warm : ____'",
+      "options": ["hot", "boiling", "cool", "burning"],
+      "answer": "hot",
+      "explanation": "Freezing is very cold; hot is very warm."
+    },
+    {
+      "id": 10,
+      "category": "Verbal",
+      "topic": "compound-words",
+      "question": "Which word is a compound word?",
+      "options": ["house", "sun", "football", "rain"],
+      "answer": "football",
+      "explanation": "'Football' is made from 'foot' + 'ball', so it is a compound word."
+    },
+    {
+      "id": 11,
+      "category": "Verbal",
+      "topic": "odd-one-out-words",
+      "question": "Which word does NOT belong?",
+      "options": ["table", "chair", "sofa", "banana"],
+      "answer": "banana",
+      "explanation": "Table, chair and sofa are furniture; banana is a fruit."
+    },
+    {
+      "id": 12,
+      "category": "Verbal",
+      "topic": "antonyms",
+      "question": "Choose the pair that means the opposite: 'kind : ____'",
+      "options": ["gentle", "helpful", "cruel", "friendly"],
+      "answer": "cruel",
+      "explanation": "The opposite of 'kind' is 'cruel'."
+    },
+    {
+      "id": 13,
+      "category": "Verbal",
+      "topic": "synonyms",
+      "question": "Which word is a synonym of 'angry'?",
+      "options": ["calm", "furious", "sleepy", "hungry"],
+      "answer": "furious",
+      "explanation": "'Furious' means very angry."
+    },
+    {
+      "id": 14,
+      "category": "Verbal",
+      "topic": "word-sequences",
+      "question": "Which word completes the pattern? 'tiny, small, medium, large, ____'",
+      "options": ["short", "thin", "huge", "wide"],
+      "answer": "huge",
+      "explanation": "The list goes from smallest to largest; after large comes huge."
+    },
+    {
+      "id": 15,
+      "category": "Verbal",
+      "topic": "synonyms",
+      "question": "Which pair is most similar in meaning?",
+      "options": [
+        "quick and slow",
+        "happy and joyful",
+        "dark and bright",
+        "full and empty"
+      ],
+      "answer": "happy and joyful",
+      "explanation": "'Happy' and 'joyful' have very similar meanings."
+    },
+    {
+      "id": 16,
+      "category": "Verbal",
+      "topic": "odd-one-out-words",
+      "question": "Find the odd one out.",
+      "options": ["January", "March", "Summer", "May"],
+      "answer": "Summer",
+      "explanation": "January, March and May are months; summer is a season."
+    },
+    {
+      "id": 17,
+      "category": "Verbal",
+      "topic": "word-analogies",
+      "question": "Complete the analogy: 'hand : glove :: foot : ____'",
+      "options": ["shoe", "sock", "sandals", "boot"],
+      "answer": "sock",
+      "explanation": "A glove covers a hand; a sock covers a foot."
+    },
+    {
+      "id": 18,
+      "category": "Verbal",
+      "topic": "synonyms",
+      "question": "Which word is a synonym of 'clever'?",
+      "options": ["foolish", "intelligent", "noisy", "clumsy"],
+      "answer": "intelligent",
+      "explanation": "'Intelligent' means clever."
+    },
+    {
+      "id": 19,
+      "category": "Verbal",
+      "topic": "odd-one-out-words",
+      "question": "Which word does NOT belong?",
+      "options": ["triangle", "square", "circle", "cube"],
+      "answer": "cube",
+      "explanation": "Triangle, square and circle are 2D shapes; cube is a 3D shape."
+    },
+    {
+      "id": 20,
+      "category": "Verbal",
+      "topic": "word-analogies",
+      "question": "Find the pair that is related in the same way as 'bird : nest'.",
+      "options": [
+        "dog : bone",
+        "bee : hive",
+        "cat : milk",
+        "fish : water"
+      ],
+      "answer": "bee : hive",
+      "explanation": "A bird lives in a nest; bees live in a hive."
+    }
+  ]
+}

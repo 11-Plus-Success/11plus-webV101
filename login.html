@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>11+ Practice – Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- Header -->
+    <header class="site-header">
+      <h1>Sign In to 11+ Practice</h1>
+      <p class="tagline">Log in to save your progress across devices.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav style="margin-bottom: 12px;">
+      <a href="index.html" class="status-message">← Back to Subjects</a>
+    </nav>
+
+    <!-- Login Card -->
+    <main>
+      <section class="dashboard-box">
+        <h2>Account</h2>
+
+        <!-- Status / error messages -->
+        <p id="login-status" class="status-message"></p>
+
+        <!-- Email/Password Form -->
+        <form id="login-form" onsubmit="return false;" style="margin-top: 10px;">
+          <div style="margin-bottom: 10px;">
+            <label for="email-input">Email</label><br />
+            <input
+              type="email"
+              id="email-input"
+              required
+              placeholder="you@example.com"
+              style="width:100%; padding:10px; margin-top:5px; border-radius:6px; border:1px solid #ccc;"
+            />
+          </div>
+
+          <div style="margin-bottom: 15px;">
+            <label for="password-input">Password</label><br />
+            <input
+              type="password"
+              id="password-input"
+              required
+              placeholder="Enter your password"
+              style="width:100%; padding:10px; margin-top:5px; border-radius:6px; border:1px solid #ccc;"
+            />
+          </div>
+
+          <button id="login-btn" class="action-btn">
+            Log In
+          </button>
+          <button id="signup-btn" class="action-btn" style="margin-top:10px;">
+            Create New Account
+          </button>
+        </form>
+
+        <!-- Divider -->
+        <hr style="margin: 20px 0; border:none; border-top:1px solid #ddd;" />
+
+        <!-- Google Login (optional) -->
+        <button id="google-login-btn" class="action-btn">
+          Sign in with Google
+        </button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© 2025 11+ Practice App</p>
+    </footer>
+
+  </div>
+
+  <!-- Firebase auth logic (to be implemented in firebase.js) -->
+  
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+
+  <script src="firebase.js"></script>
+  
+</body>
+</html>

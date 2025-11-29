@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>11+ Practice – Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- Header -->
+    <header class="site-header">
+      <h1>11+ Practice Dashboard</h1>
+      <p class="tagline">Overview of your quiz performance.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav style="margin-bottom: 12px;">
+      <a href="index.html" class="status-message">← Back to Subjects</a> |
+      <a href="quiz.html" class="status-message">Start a Quiz →</a>
+    </nav>
+
+    <!-- Auth info (optional Firebase integration) -->
+    <section id="auth-info" class="auth-info">
+      <p id="dash-auth-status"></p>
+      <button id="dash-logout-btn" style="display:none;">Log out</button>
+    </section>
+
+    <!-- Dashboard Content -->
+    <section id="dashboard-section">
+      <h2>Dashboard</h2>
+      <p id="dashboard-status" class="status-message">
+        Loading your progress…
+      </p>
+
+      <!-- Overall Summary -->
+      <div id="dashboard-summary" class="dashboard-box" style="display:none;">
+        <h3>Overall Performance</h3>
+        <p>Total Attempts: <span id="overall-attempts">0</span></p>
+        <p>Total Correct: <span id="overall-correct">0</span></p>
+        <p>Overall Accuracy: <span id="overall-accuracy">0%</span></p>
+      </div>
+
+      <!-- Subject Breakdown -->
+      <div id="subject-breakdown" class="dashboard-box" style="display:none; margin-top:16px;">
+        <h3>Performance by Subject</h3>
+        <div id="subject-stats-container">
+          <!-- Filled dynamically by dashboard.js -->
+          <!-- Example structure:
+          <p>Maths: 18/25 correct (72%)</p>
+          -->
+        </div>
+      </div>
+
+      <!-- Recent Attempts -->
+      <div id="recent-attempts" class="dashboard-box" style="display:none; margin-top:16px;">
+        <h3>Recent Attempts</h3>
+        <ul id="recent-attempts-list" style="list-style:none; padding-left:0;">
+          <!-- Filled dynamically by dashboard.js -->
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© 2025 11+ Practice App</p>
+    </footer>
+
+  </div>
+
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+
+<!-- Your Firebase logic -->
+<script src="firebase.js"></script>
+
+<!-- Dashboard logic -->
+<script src="dashboard.js"></script>
+
+</body>
+</html>

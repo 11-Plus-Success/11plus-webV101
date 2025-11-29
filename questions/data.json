@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "Data",
+      "topic": "tables",
+      "question": "A table shows the number of books read in a month: Sam: 4, Aisha: 6, Tom: 3. Who read the most?",
+      "options": ["Sam", "Aisha", "Tom", "All read the same"],
+      "answer": "Aisha",
+      "explanation": "Aisha read 6 books, which is the highest."
+    },
+    {
+      "id": 2,
+      "category": "Data",
+      "topic": "tables",
+      "question": "A table shows fruit sold: Apples 25, Bananas 18, Oranges 22. Which fruit sold the least?",
+      "options": ["Apples", "Bananas", "Oranges", "All equal"],
+      "answer": "Bananas",
+      "explanation": "Bananas have the smallest number (18)."
+    },
+    {
+      "id": 3,
+      "category": "Data",
+      "topic": "pictograms",
+      "question": "A pictogram shows that each ★ = 2 cars. There are 5 stars. How many cars is that?",
+      "options": ["5", "8", "10", "12"],
+      "answer": "10",
+      "explanation": "5 stars × 2 cars each = 10 cars."
+    },
+    {
+      "id": 4,
+      "category": "Data",
+      "topic": "bar-charts",
+      "question": "A bar chart shows toy sales: Dolls 30, Cars 20, Balls 25. Which toy sold second most?",
+      "options": ["Dolls", "Cars", "Balls", "They are all the same"],
+      "answer": "Balls",
+      "explanation": "30 is highest (Dolls), 25 is next (Balls)."
+    },
+    {
+      "id": 5,
+      "category": "Data",
+      "topic": "tables",
+      "question": "A table shows bus arrival times: A: 8:05, B: 8:12, C: 8:20. Which bus arrives earliest?",
+      "options": ["A", "B", "C", "All arrive together"],
+      "answer": "A",
+      "explanation": "8:05 is earliest."
+    },
+    {
+      "id": 6,
+      "category": "Data",
+      "topic": "pictograms",
+      "question": "A pictogram shows each ● = 4 sweets. If there are 3 circles, how many sweets?",
+      "options": ["4", "8", "12", "16"],
+      "answer": "12",
+      "explanation": "3 × 4 = 12 sweets."
+    },
+    {
+      "id": 7,
+      "category": "Data",
+      "topic": "timetables",
+      "question": "A train timetable shows: London 09:00, Reading 09:25, Oxford 10:00. How long from London to Oxford?",
+      "options": ["45 minutes", "55 minutes", "60 minutes", "75 minutes"],
+      "answer": "60 minutes",
+      "explanation": "09:00 to 10:00 is 1 hour (60 minutes)."
+    },
+    {
+      "id": 8,
+      "category": "Data",
+      "topic": "word-problems",
+      "question": "A class has 12 boys and 15 girls. How many children in total?",
+      "options": ["26", "27", "28", "29"],
+      "answer": "27",
+      "explanation": "12 + 15 = 27."
+    },
+    {
+      "id": 9,
+      "category": "Data",
+      "topic": "bar-charts",
+      "question": "A bar chart shows rainfall (mm): Mon 5, Tue 8, Wed 2, Thu 10. Which day was driest?",
+      "options": ["Mon", "Tue", "Wed", "Thu"],
+      "answer": "Wed",
+      "explanation": "2 mm is the smallest amount."
+    },
+    {
+      "id": 10,
+      "category": "Data",
+      "topic": "tables",
+      "question": "A table shows pets: Cats 8, Dogs 6, Fish 12. Which pet is most common?",
+      "options": ["Cats", "Dogs", "Fish", "All equal"],
+      "answer": "Fish",
+      "explanation": "Fish has the highest number (12)."
+    },
+    {
+      "id": 11,
+      "category": "Data",
+      "topic": "word-problems",
+      "question": "A shop sells stickers at 20p each. How much for 6 stickers?",
+      "options": ["£1.00", "£1.20", "£1.40", "£1.60"],
+      "answer": "£1.20",
+      "explanation": "6 × 20p = 120p = £1.20."
+    },
+    {
+      "id": 12,
+      "category": "Data",
+      "topic": "pictograms",
+      "question": "In a pictogram, each ▲ = 3 children. If a row has 7 triangles, how many children?",
+      "options": ["18", "19", "20", "21"],
+      "answer": "21",
+      "explanation": "7 × 3 = 21 children."
+    },
+    {
+      "id": 13,
+      "category": "Data",
+      "topic": "bar-charts",
+      "question": "A bar chart shows favourite colours: Red 14, Blue 20, Green 18. Which colour is least favourite?",
+      "options": ["Red", "Blue", "Green", "None"],
+      "answer": "Red",
+      "explanation": "14 is the smallest value."
+    },
+    {
+      "id": 14,
+      "category": "Data",
+      "topic": "timetables",
+      "question": "A bus arrives every 15 minutes. If one arrives at 10:30, when is the next?",
+      "options": ["10:40", "10:45", "10:50", "10:55"],
+      "answer": "10:45",
+      "explanation": "10:30 + 15 minutes = 10:45."
+    },
+    {
+      "id": 15,
+      "category": "Data",
+      "topic": "tables",
+      "question": "A class score table shows: Amy 9, Ben 7, Chloe 10. What is the total score?",
+      "options": ["24", "25", "26", "27"],
+      "answer": "26",
+      "explanation": "9 + 7 + 10 = 26."
+    },
+    {
+      "id": 16,
+      "category": "Data",
+      "topic": "word-problems",
+      "question": "A packet has 40 sweets. If 12 are eaten, how many remain?",
+      "options": ["26", "27", "28", "29"],
+      "answer": "28",
+      "explanation": "40 − 12 = 28."
+    },
+    {
+      "id": 17,
+      "category": "Data",
+      "topic": "bar-charts",
+      "question": "A bar chart shows: Year 1 = 18 pupils, Year 2 = 21 pupils, Year 3 = 19 pupils. Which year has the most?",
+      "options": ["Year 1", "Year 2", "Year 3", "All equal"],
+      "answer": "Year 2",
+      "explanation": "21 is the greatest value."
+    },
+    {
+      "id": 18,
+      "category": "Data",
+      "topic": "tables",
+      "question": "A temperature table shows: Morning 12°C, Afternoon 18°C, Evening 14°C. When is it warmest?",
+      "options": ["Morning", "Afternoon", "Evening", "All equal"],
+      "answer": "Afternoon",
+      "explanation": "18°C is highest."
+    },
+    {
+      "id": 19,
+      "category": "Data",
+      "topic": "pictograms",
+      "question": "Each ■ = 5 goals. If a team has ■■■■, how many goals?",
+      "options": ["15", "20", "25", "30"],
+      "answer": "20",
+      "explanation": "4 × 5 = 20 goals."
+    },
+    {
+      "id": 20,
+      "category": "Data",
+      "topic": "word-problems",
+      "question": "A jug holds 2 litres. A cup holds 250 ml. How many cups fill the jug?",
+      "options": ["4", "6", "8", "10"],
+      "answer": "8",
+      "explanation": "2 litres = 2000 ml. 2000 ÷ 250 = 8 cups."
+    }
+  ]
+}

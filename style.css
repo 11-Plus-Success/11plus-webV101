@@ -1,0 +1,204 @@
+/* ================================
+   Global Reset & Base Styling
+================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #222;
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ================================
+   Header
+================================= */
+.site-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.site-header h1 {
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.tagline {
+  color: #555;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* ================================
+   Subject Buttons
+================================= */
+.subject-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.subject-btn {
+  padding: 14px;
+  font-size: 1.1rem;
+  background: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.subject-btn:hover {
+  background: #0055aa;
+}
+
+.subject-btn:active {
+  background: #004999;
+}
+
+/* ================================
+   Quiz Layout
+================================= */
+.quiz-container {
+  margin-top: 25px;
+}
+
+.question-text {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.options-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-btn {
+  padding: 12px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.option-btn:hover {
+  background: #e0e0e0;
+}
+
+.option-btn.correct {
+  background: #4CAF50;
+  color: #fff;
+}
+
+.option-btn.incorrect {
+  background: #e53935;
+  color: #fff;
+}
+
+/* Buttons below questions */
+.action-btn {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.action-btn:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
+
+/* Explanation Box */
+.explanation-box {
+  margin-top: 20px;
+  background: #fff6d5;
+  border-left: 4px solid #ffcc00;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* ================================
+   Dashboard Page
+================================= */
+.status-message {
+  margin-top: 12px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.dashboard-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* ================================
+   Auth Section
+================================= */
+.auth-info {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+#logout-btn,
+#dash-logout-btn {
+  padding: 8px 14px;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout-btn:hover,
+#dash-logout-btn:hover {
+  background: #222;
+}
+
+/* ================================
+   Footer
+================================= */
+.site-footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* ================================
+   Responsive Enhancements
+================================= */
+@media (min-width: 600px) {
+  .subject-btn {
+    font-size: 1.2rem;
+    padding: 16px;
+  }
+
+  .question-text {
+    font-size: 1.4rem;
+  }
+}
